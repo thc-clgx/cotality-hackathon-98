@@ -1,10 +1,25 @@
-# Python-generated files
+# Virtual environments and bundled interpreters
+.venv/
+.python/
+venv/
+
+# Python build artefacts
 __pycache__/
-*.py[oc]
+*.pyc
+*.egg-info/
 build/
 dist/
-wheels/
-*.egg-info
 
-# Virtual environments
-.venv
+# Secrets: never commit. Use the .env.example in each project as the template.
+.env
+
+# Test, validation and run output
+.pytest_cache/
+.validation/
+generated/
+*.log
+
+# OS and editor junk
+.DS_Store
+.idea/
+.vscode/

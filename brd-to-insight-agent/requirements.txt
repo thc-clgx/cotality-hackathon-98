@@ -1,0 +1,11 @@
+streamlit>=1.63,<2
+pandas>=2.2,<4
+numpy>=1.26,<3
+openpyxl>=3.1,<4
+xlrd>=2.0,<3
+plotly==6.3.1
+kaleido>=1.0,<2
+Pillow>=10.2,<13
+google-genai>=1.56,<3
+google-cloud-bigquery>=3.25,<4
+db-dtypes>=1.2,<2

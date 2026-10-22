@@ -1,0 +1,28 @@
+# Virtual environment and bundled interpreter.
+# These record absolute paths and are ~600 MB; always rebuild locally.
+.venv/
+.python/
+
+# Python build artefacts
+__pycache__/
+*.pyc
+
+# Secrets: never commit. Use .env.example as the template.
+.env
+
+# Test, validation and run output
+.pytest_cache/
+.validation/
+*.log
+
+# OS junk
+.DS_Store
+
+# Internal working notes: not part of the published project.
+PROJECT_HANDOFF.md
+readlock.md
+memory.md
+
+# Local build artefacts and development screenshots
+.diagram/
+screenshots/
